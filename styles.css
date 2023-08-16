@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .first-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #9babe4;
+  }
+  
+  .refer-a-friend,
+  .find-a-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dollar-icon,
+  .location-icon,
+  .cart-icon {
+    width: 30px;
+  }
+  
+  .second-part {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px 9px;
+    font-size: 1.2em;
+    color: #1e306e;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link-sale {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .cart-icon{
+      margin-top: 5px;
+  }
+  
