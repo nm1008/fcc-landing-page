@@ -1,61 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.first-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #9babe4;
+}
+
+.refer-a-friend,
+.find-a-store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dollar-icon,
+.location-icon,
+.cart-icon {
+  width: 30px;
+}
+
+.second-part {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px 9px;
+  font-size: 1.2em;
+  color: #1e306e;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link-sale {
+  text-decoration: none;
+  color: red;
+}
+
+.cart-icon {
+  margin-top: 5px;
+}
+
+.jumbotron {
+  background-color: rgb(253, 218, 102);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 70px;
+}
+
+.jumbotron-container a {
+  text-decoration: none;
+}
+.jumbotron-container a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .info-img,
+  .mattress-img {
+    width: 400px;
   }
-  
-  body {
-    font-family: sans-serif;
-  }
-  
-  .first-part {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #9babe4;
-  }
-  
-  .refer-a-friend,
-  .find-a-store {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .dollar-icon,
-  .location-icon,
-  .cart-icon {
-    width: 30px;
-  }
-  
-  .second-part {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 7px 9px;
-    font-size: 1.2em;
-    color: #1e306e;
-  }
-  
-  .nav-links ul {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    margin-top: 10px;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-  }
-  
-  .nav-link-sale {
-    text-decoration: none;
-    color: red;
-  }
-  
-  .cart-icon{
-      margin-top: 5px;
-  }
-  
+}
+
+.main-link {
+  text-align: center;
+  background-color: rgb(253, 218, 102);
+  color: black;
+  padding-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
