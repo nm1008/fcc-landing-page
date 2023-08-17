@@ -264,12 +264,10 @@ span {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
-  border: none;
 }
 
 .mattress-link {
   text-decoration: none;
-  
 }
 
 .mattress-link:visited {
