@@ -99,7 +99,7 @@ body {
   align-items: flex-start;
   position: relative;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .experience-img {
@@ -254,11 +254,42 @@ span {
   display: flex;
   justify-content: center;
 }
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .btn {
-  width: 80%;
   margin: 20px 30px;
   padding: 10px 30px;
+  background-color: #20346c;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.mattress-link {
+  text-decoration: none;
+}
+
+.mattress-link:visited {
+  color: inherit;
+}
+
+.shop-btn {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.shop-all {
+  padding: 15px 30px;
+  border-radius: 5px;
   background-color: #20346c;
   color: white;
   font-weight: bold;
@@ -267,11 +298,29 @@ span {
   border: none;
 }
 
-.mattress-link {
-  text-decoration: none;
-  
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 300px;
 }
 
-.mattress-link:visited {
-  color: inherit;
+.video-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 200px;
+  width: 400px;
+}
+
+.video-info {
+  width: 400px;
+  line-height: 1.5;
+}
+
+.video-info h3,
+p {
+  margin-bottom: 20px;
 }
