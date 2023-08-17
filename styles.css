@@ -287,7 +287,8 @@ span {
   margin-bottom: 100px;
 }
 
-.shop-all {
+.shop-all,
+.explore {
   padding: 15px 30px;
   border-radius: 5px;
   background-color: #20346c;
@@ -296,6 +297,7 @@ span {
   font-size: 14px;
   letter-spacing: 1px;
   border: none;
+  cursor: pointer;
 }
 
 .video-container {
@@ -304,15 +306,15 @@ span {
   align-items: center;
   gap: 100px;
   height: 300px;
+  margin-bottom: 50px;
+  background-color: #f0ecf4;
+  height: 500px;
 }
 
 .video-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
-  height: 200px;
-  width: 400px;
 }
 
 .video-info {
@@ -320,7 +322,62 @@ span {
   line-height: 1.5;
 }
 
-.video-info h3,
-p {
+.video-info h3 {
   margin-bottom: 20px;
+  color: #20346c;
+  font-size: 24px;
+}
+
+.video-info p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.header-review {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header-review h2 {
+  margin-bottom: 20px;
+  color: #20346c;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.header-review p {
+  color: gray;
+}
+
+.review-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.star-img {
+  width: 20px;
+  margin-bottom: 20px;
+}
+
+.review-content {
+  color: #20346c;
+  width: 700px;
+  line-height: 1.7;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.review-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 50px;
+}
+
+.experience-img-review {
+  width: 300px;
 }
